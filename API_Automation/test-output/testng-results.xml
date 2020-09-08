@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8871" started-at="2020-06-19T18:10:57Z" finished-at="2020-06-19T18:11:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8871" started-at="2020-06-19T18:10:57Z" finished-at="2020-06-19T18:11:06Z">
+      <class name="com.w2a.API_Automation.testCases.TestCreateUserAPI">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-19T18:11:02Z" finished-at="2020-06-19T18:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-19T18:11:02Z" finished-at="2020-06-19T18:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Automation.testCases.TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="validateCreateUserAPIWithValidData" duration-ms="1787" started-at="2020-06-19T18:11:02Z" data-provider="dp" finished-at="2020-06-19T18:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Rahul Arora, job=Selenium Master}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateUserAPIWithValidData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-19T18:11:04Z" finished-at="2020-06-19T18:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateUserAPIWithValidData status=SUCCESS method=TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-06-19T18:11:04Z" finished-at="2020-06-19T18:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Automation.testCases.TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="validateCreateUserAPIWithValidData" duration-ms="930" started-at="2020-06-19T18:11:04Z" data-provider="dp" finished-at="2020-06-19T18:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Deepak, job=Ui Developer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateUserAPIWithValidData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-06-19T18:11:05Z" finished-at="2020-06-19T18:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateUserAPIWithValidData status=SUCCESS method=TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="validateCreateUserAPIWithValidData" duration-ms="1296" started-at="2020-06-19T18:11:05Z" data-provider="dp" finished-at="2020-06-19T18:11:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Anil, job=Tech Lead}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateUserAPIWithValidData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-19T18:11:05Z" finished-at="2020-06-19T18:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Automation.testCases.TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-19T18:11:06Z" finished-at="2020-06-19T18:11:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateUserAPIWithValidData status=SUCCESS method=TestCreateUserAPI.validateCreateUserAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateUserAPI@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.w2a.API_Automation.testCases.TestCreateUserAPI -->
+      <class name="com.w2a.API_Automation.testCases.TestCreateCostumerAPI">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="beforeSuite" is-config="true" duration-ms="828" started-at="2020-06-19T18:10:57Z" finished-at="2020-06-19T18:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-06-19T18:10:57Z" finished-at="2020-06-19T18:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-06-19T18:10:57Z" finished-at="2020-06-19T18:10:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.API_Automation.testCases.TestCreateCostumerAPI.validateCreateCustomerAPIWithValidData(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="validateCreateCustomerAPIWithValidData" duration-ms="3782" started-at="2020-06-19T18:10:57Z" data-provider="dp" finished-at="2020-06-19T18:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedStatusCode=200, arguments=email:testing@yahoo.co.in,description:Testing the api,balance:10101, expectedEmail=testing@yahoo.co.in, endpoint=customers}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-19T18:11:02Z" finished-at="2020-06-19T18:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidData status=SUCCESS method=TestCreateCostumerAPI.validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.w2a.API_Automation.testCases.TestCreateCostumerAPI@23c30a20]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-06-19T18:11:06Z" finished-at="2020-06-19T18:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.w2a.API_Automation.testCases.TestCreateCostumerAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
